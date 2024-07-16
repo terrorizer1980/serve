@@ -2,3 +2,4 @@ torch==1.6.0+cu101
 torchvision===0.7.0+cu101
 torchtext==0.7.0
 torchaudio==0.6.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

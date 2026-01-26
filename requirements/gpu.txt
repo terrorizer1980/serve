@@ -1,4 +1,6 @@
-torch==1.6.0+cu101
+torch==2.10.0+cu101
 torchvision===0.7.0+cu101
 torchtext==0.7.0
 torchaudio==0.6.0
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
